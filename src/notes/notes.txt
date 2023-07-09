@@ -1,0 +1,71 @@
+__________________ JAVA ____________________
+
+Programming Langua
+
+INSTALLATION
+_________________________________________
+
+
+1.0
+...
+1.5
+1.6
+
+1.8 2015 *JDK 8 (Java Development Kit)✅
+75% companies still they use JDK 8
+2030
+
+
+JDK 9
+..
+JDK 11*✅
+
+...
+JDK 17*
+
+*LTS versions (Longe Term Support)
+
+1 year of OS updates
+Pixel 3 years
+Samsung 3 years
+iPhones 5 years
+
+VENODORS OF JAVA
+1. Version JDK 8, 11
+2. Vendor ? Oracle, Adoptium *
+3. Install the JDK
+4. Set the environment variables for JDK
+
+Softwares:
+💎 Notepad ++
+💎 Eclipse
+
+
+------------RUN OUR FIRST JAVA CODE------------
+
+Main.java (Source File)
+
+1. Compilation (Converting your source code )
+Main.java ----- javac Main.java ------> Main.class ( Class file/ Byte Code/ Intermediate Code)
+
+2. Execution
+
+java Main -----> Hello World
+(internally will search for Main.class)
+
+
+RUN THE SAME ABOVE CODE IN ECLIPSE
+
+
+
+Packages
+
+codecounty.com
+
+com.codecounty.java.core.basics
+
+com > codecounty > java > core >basics
+
+
+
+
