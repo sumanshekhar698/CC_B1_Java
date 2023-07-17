@@ -1,10 +1,8 @@
-__________________ JAVA ____________________
+*__________________ JAVA ____________________*
 
-Programming Langua
+Programming Language
 
-INSTALLATION
-_________________________________________
-
+... Versions ...
 
 1.0
 ...
@@ -41,7 +39,7 @@ Softwares:
 💎 Eclipse
 
 
-------------RUN OUR FIRST JAVA CODE------------
+*------------RUN OUR FIRST JAVA CODE------------*
 
 Main.java (Source File)
 
@@ -67,5 +65,11 @@ com.codecounty.java.core.basics
 com > codecounty > java > core >basics
 
 
+*------------Number System------------*
+
+Decimal  | 10 symbols [0-9] |Base 10
+Binary | 2 symbols [0-1] | Base 2
+Octal | 8 symbols [0-7] | Base 8
+Hexadecimal | [16 symbols [0-9 A-F] [0-9 a-f] | Base 16
 
 
