@@ -1,4 +1,4 @@
-package com.codecounty.java.core.basics;
+package com.codecounty.dsa.basics;
 
 public class AverageOfTwoNumbers {
 

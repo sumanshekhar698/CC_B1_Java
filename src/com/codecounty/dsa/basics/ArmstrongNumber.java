@@ -1,4 +1,4 @@
-package com.codecounty.java.basic_dsa;
+package com.codecounty.dsa.basics;
 
 public class ArmstrongNumber {
 

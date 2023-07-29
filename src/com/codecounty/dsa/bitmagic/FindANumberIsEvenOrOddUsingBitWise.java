@@ -1,4 +1,4 @@
-package com.codecounty.java.basic_dsa;
+package com.codecounty.dsa.bitmagic;
 
 import java.util.Scanner;
 
