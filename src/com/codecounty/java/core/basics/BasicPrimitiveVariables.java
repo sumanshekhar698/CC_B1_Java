@@ -12,13 +12,12 @@ public class BasicPrimitiveVariables {// R2: class name should exactly match wit
 
 		// Primitive Vraiables
 //		Integers  0 ,-4, 77
-		
 
 		byte x;// decalaring
 		x = 99;
 		System.out.println(x);
 		byte a = 32;// declaring and initialising
-		
+
 		short b = 78;
 		int c = 787;// = is called assingment operator
 //		R3: Cannot use keywords as variable names, variable name has no length limit,
@@ -36,11 +35,10 @@ public class BasicPrimitiveVariables {// R2: class name should exactly match wit
 
 		// Boolean
 		boolean isJavaEasy = true, isDSAHard = false;
-		
+
 //		charater
-		char m = 'b';//characte data type can store a single character
+		char m = 'b';// characte data type can store a single character
 		System.out.println(m);
-		
 
 	}
 
