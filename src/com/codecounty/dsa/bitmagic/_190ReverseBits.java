@@ -5,7 +5,7 @@ public class _190ReverseBits {
 
 	public static void main(String[] args) {
 
-		int n = 11;
+		int n = 19;
 
 //		O(1) Constant Time
 //		O(1) Constant Space

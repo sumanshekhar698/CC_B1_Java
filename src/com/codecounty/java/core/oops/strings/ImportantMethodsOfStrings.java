@@ -1,5 +1,7 @@
 package com.codecounty.java.core.oops.strings;
 
+import java.util.Arrays;
+
 public class ImportantMethodsOfStrings {
 
 	public static void main(String[] args) {
@@ -47,6 +49,10 @@ public class ImportantMethodsOfStrings {
 		System.out.println(z.length() == 0);
 		System.out.println(z.isEmpty());
 //		System.out.println(z.);
+		
+//		String s = "   fly me   to   the moon  ";
+//		String[] split = s.split(" ");
+//		System.out.println(Arrays.toString(split));
 
 
 
