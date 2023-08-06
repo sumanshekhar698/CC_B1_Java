@@ -38,7 +38,7 @@ public class _242ValidAnagram {
 
 		// 3rd for loop
 		for (int i = 0; i < hashArray.length; i++) {
-			if(hashArray[i] != 0)
+			if (hashArray[i] != 0)
 				return false;
 		}
 
