@@ -8,6 +8,8 @@ public class _242ValidAnagram {
 
 		String s = "abagram";
 		String t = "bagaram";
+		
+		
 
 		int x = 'a';
 		System.out.println(x);
