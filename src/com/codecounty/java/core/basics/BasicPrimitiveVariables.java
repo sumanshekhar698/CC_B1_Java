@@ -13,8 +13,22 @@ public class BasicPrimitiveVariables {// R2: class name should exactly match wit
 		// Primitive Vraiables
 //		Integers  0 ,-4, 77
 
-		byte x;// decalaring
-		x = 99;
+		byte x;// decalaring 
+		x = 99;// Pritive variables and Objects
+		
+//		1 byte = 8 bits = -2^(8-1) to 2^(8-1) -1 = - 2^7 to (2^7) - 1 = -128 to 127
+//		x =129;
+		
+	
+		
+	
+		
+//		Object ---> 
+//		1. Properties/ Values
+//		2. Functions ANd Methods
+		
+		
+		
 		System.out.println(x);
 		byte a = 32;// declaring and initialising
 
@@ -30,8 +44,11 @@ public class BasicPrimitiveVariables {// R2: class name should exactly match wit
 
 //		Decimals | Floating Point Numbers
 //		3.13159
-		float valueOfPi = 3.14159f;// By default all floating point numbers are considereed as double
-		double valueOfPie = 3.14159;
+		float valueOfPi = 3.14159342342f;// By default all floating point numbers are considereed as double
+		double valueOfPie = 3.14159453534;
+		System.out.println(valueOfPi);
+		System.out.println(valueOfPie);
+
 
 		// Boolean
 		boolean isJavaEasy = true, isDSAHard = false;

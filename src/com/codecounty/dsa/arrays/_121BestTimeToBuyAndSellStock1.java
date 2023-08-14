@@ -25,7 +25,8 @@ public class _121BestTimeToBuyAndSellStock1 {
 	}
 	
 	static int maxProfitLinear(int[] prices) {
-		int maxProfit = 0, min = prices[0];
+		int maxProfit = 0, 
+				min = prices[0];
 
 //		Time O(n) = n
 //		Space O(n) = 1
