@@ -13,7 +13,7 @@ public class Film {
 	}
 
 	Film(String name, String genre, float durationInMinutes) {// parameterized constructor
-		this(name, genre);//constructor chaining should be the 1st stamenet
+		this(name, genre);// constructor chaining should be the 1st stamenet
 		System.out.println("Film(parameterized 1) called");
 
 		this.name = name;// shadow problem
@@ -31,5 +31,8 @@ public class Film {
 	}
 
 //	If there are NO explicitly constructors declared in the class, During runtime JVM will add a default constructor
+	Film getTheSameObject() {
+		return this;// this always points to the current object
+	}
 
 }

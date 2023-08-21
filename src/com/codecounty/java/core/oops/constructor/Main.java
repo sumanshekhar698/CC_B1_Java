@@ -1,5 +1,7 @@
 package com.codecounty.java.core.oops.constructor;
 
+import com.codecounty.java.core.oops.basics.Car;
+
 public class Main {// class name follows PascalCase
 
 //	for namin the return type is void
@@ -14,7 +16,14 @@ public class Main {// class name follows PascalCase
 
 		Film jailer = new Film("Jailer", "Action", 120.5f);// instatiation
 		System.out.println(jailer.name);
-		
+		System.out.println(jailer.hashCode());
+
+		Film theSameObject = jailer.getTheSameObject();
+		System.out.println(theSameObject.hashCode());
+//		System.out.println(theSameObject);
+
+//		Car car = new Car();//Access Specifiers
+
 //		Film mi = new Film("MI", "Action");// instatiation
 //		System.out.println(mi.name);
 
