@@ -15,6 +15,11 @@ public class Main {
 //		System.out.println(s1.experience);
 //		System.out.println(s1.projectHandling);
 
+		Student st1 = new Student(2, "Rocky", "Sri Ram College");
+		System.out.println(st1);
+		System.out.println(st1.getName());
+		st1.setCollegeName("Presidency College");
+		System.out.println(st1);
 
 
 

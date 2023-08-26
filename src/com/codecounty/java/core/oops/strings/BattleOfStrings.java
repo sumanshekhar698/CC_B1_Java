@@ -1,5 +1,7 @@
 package com.codecounty.java.core.oops.strings;
 
+import com.codecounty.java.core.oops.encapsulation.Scientist;
+
 public class BattleOfStrings {
 
 	public static void main(String[] args) {
@@ -19,6 +21,9 @@ public class BattleOfStrings {
 
 		long end = System.nanoTime();
 		System.out.println("Time => " + (end - start));
+		
+		Scientist s1 = new Scientist("john", 30, 10, 10, "Chanrayan");
+		s1.getMyName();// to access this method outside the class, I am making the function public
 
 	}
 
