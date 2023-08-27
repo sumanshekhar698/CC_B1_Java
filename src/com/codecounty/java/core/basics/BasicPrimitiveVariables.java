@@ -37,8 +37,8 @@ public class BasicPrimitiveVariables {// R2: class name should exactly match wit
 //		R3: Cannot use keywords as variable names, variable name has no length limit,
 		// variable name can contain numbers but should not start with numbers
 		// two variable cannot have same name
-		int $ = 7;// variable name can have $
-		int _ = 7;// variable name can have _
+//		int $ = 7;// variable name can have $
+//		int _ = 7;// variable name can have _
 		long d = 43;
 		long phoneNumber = 9006567388L;// S2: variable name should follow camelCase and it should have a sensible name
 
