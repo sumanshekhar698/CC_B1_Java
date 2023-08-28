@@ -3,9 +3,9 @@ package com.codecounty.java.core.oops.polymorphism;
 public class ShapePolymorphic {
 
 //	all the name of the polymorphic functions should be same
-//	Are they having same number of parameters ?
-//	Are they having same parameter type ?
-//	Are they having same position ?
+//	1. Are they having same number of parameters ?
+//	2. Are they having same parameter type ?
+//	3. Are they having same position ?
 
 //	Polymorphism
 //	1. Compile Time (method overloading)

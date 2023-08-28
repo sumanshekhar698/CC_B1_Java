@@ -16,8 +16,11 @@ public class Main {
 		System.out.println(shapePolymorphic.area(5));
 		System.out.println(shapePolymorphic.area(10, 5.6f));
 		System.out.println(shapePolymorphic.area(5.6f, 10));
-		
+
 		System.out.println();
+		System.out.println(2);
+		System.out.println("two");
+		System.out.println(true);
 
 	}
 
