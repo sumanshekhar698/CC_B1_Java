@@ -6,6 +6,12 @@ public class MinimumInSortedRotatedArray {
         int result = findMin(arr);
         System.out.println("Minimum Element in Rotated sorted Array :: "+result);
     }
+
+    /**
+     * Function to find minimum in rotated sorted array
+     * @param arr : Input Array
+     * @return the minimum element in rotated sorted array
+     */
     private static int findMin(int[] arr) {
         int n = arr.length;
         int low = 0;

@@ -8,6 +8,13 @@ public class LastOccurencesInSortedArray {
         System.out.println("Result :: "+result);
     }
 
+    /**
+     * Function to find the last occurrences of element in sorted array
+     * @param arr : Input Array
+     * @param n : Size of array
+     * @param target : target value
+     * @return the index of last occurrences of element
+     */
     private static int lastOccurencesInSortedArray(int[] arr, int n, int target) {
         int low = 0;
         int high = n-1;

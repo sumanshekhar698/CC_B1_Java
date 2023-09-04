@@ -6,6 +6,12 @@ public class PeakElement {
         int result = findPeakElement(arr);
         System.out.println(result);
     }
+
+    /**
+     * Function to find a peak element, and return its index.
+     * @param arr : Input Array
+     * @return the index of peak element
+     */
     private static int findPeakElement(int[] arr) {
         int n = arr.length;
         int low = 0;

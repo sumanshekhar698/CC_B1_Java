@@ -9,6 +9,13 @@ public class FirstOccurencesInSortedArray {
         System.out.println("Result :: "+result);
     }
 
+    /**
+     * Function to find the first Occurrences of element in sorted array
+     * @param arr
+     * @param n
+     * @param target
+     * @return the index of first occurrences of element
+     */
     private static int firstOccurencesInSortedArray(int[] arr, int n, int target) {
         int low = 0;
         int high = n-1;

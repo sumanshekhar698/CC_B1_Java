@@ -7,6 +7,13 @@ public class SearchInsertPosition {
         int result = searchInsert(nums,target);
         System.out.println(result);
     }
+
+    /**
+     * Function to find the index if the target is found. If not, return the index where it would be if it were inserted in order.
+     * @param nums : Input Array
+     * @param target : target value
+     * @return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+     */
     private static int searchInsert(int[] nums, int target) {
         int low = 0;
         int high = nums.length-1;
