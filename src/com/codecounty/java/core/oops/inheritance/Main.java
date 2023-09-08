@@ -13,6 +13,10 @@ public class Main {
 		System.out.println(rogerFeddrer);
 		rogerFeddrer.sayMyName();
 		
+		CricketPlayers viratKohli = new CricketPlayers("Virat Kohli", Gender.MALE, 45, 5.11f, 75.6f, 378, 270);
+		System.out.println(viratKohli);
+	
+		
 	}
 
 }
