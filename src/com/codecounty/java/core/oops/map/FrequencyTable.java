@@ -11,7 +11,7 @@ public class FrequencyTable {
 
 		HashMap<Integer, Integer> hashMap = new HashMap<>();// value:frequency
 
-//		for (int num : arr) {
+//		for (int num : arr) {//10/10
 //
 //			if (hashMap.containsKey(num)) {//O(n) = 1 :: 45 -->> fn() --> hash value
 //				Integer currentFreq = hashMap.get(num);
