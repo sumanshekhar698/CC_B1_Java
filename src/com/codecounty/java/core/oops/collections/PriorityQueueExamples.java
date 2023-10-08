@@ -7,7 +7,7 @@ public class PriorityQueueExamples {
 
 	public static void main(String[] args) {
 
-		PriorityQueue<Integer> pq1 = new PriorityQueue<>();
+//		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		//By Default it will use MinHeap
 		
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());//MaxHeap
