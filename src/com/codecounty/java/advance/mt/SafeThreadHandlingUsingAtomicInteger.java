@@ -1,18 +1,20 @@
 package com.codecounty.java.advance.mt;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class SafeThreadHandlingUsingAtomicInteger {
 
 	static class Counter {
-		private int x = 0;
+//		private int x = 0;
+		private AtomicInteger x = new AtomicInteger(0);
 
 		public int getX() {
-			return x;
+			return x.get();
 		}
 
-//		synchronized void incrementX() {//sybchronizing will fix this issue
+//		synchronized void incrementX() {//synchronizing will fix this issue
 		void incrementX() {
-
-			++x;
+			x.getAndIncrement();
 		}
 
 	}
