@@ -24,7 +24,7 @@ public class _515FindLargestValueInEachTreeRow {
 			int max = Integer.MIN_VALUE;
 			int size = queue.size();
 			
-			for (int i = 0; i < size; i++) {// It will traverse amon all the elements of that particualtr level
+			for (int i = 0; i < size; i++) {// It will traverse among all the elements of that particualtr level
 				TreeNode node = queue.poll();
 				if (node.left != null) {
 					queue.add(node.left);
