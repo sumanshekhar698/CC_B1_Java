@@ -30,4 +30,19 @@ public class CoinChange {
 
         return dp[coins.length][amount];
     }
+    // Recursive Code
+    private int helper(int[] coins, int idx, int amount, int coinsUsed) {
+
+        if(coins.length == idx || amount < 0) return -1;
+        if(amount == 0) return coinsUsed;
+        // Don't 'choose
+        int case1 = helper(coins, idx+1 , amount, coinsUsed);
+        // Choose
+        int case2 = helper(coins, idx, amount-coins[idx], coinsUsed+1);
+
+        if(case1 == -1) return case2;
+        if(case2 == -1) return case1;
+
+        return Math.min(case1, case2);
+    }
 }
